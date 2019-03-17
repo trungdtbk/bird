@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
     bison \
     libncurses5-dev \
     libreadline-dev \
-    wget
+    wget \
+    vim
 
 # Install BIRD internet routing
 ENV BIRD_VERSION=1.6.4
