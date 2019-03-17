@@ -1,0 +1,8 @@
+FROM trungdtbk/bird:latest
+
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    tcpdump \
+    iperf3 \
+    iputils-ping \
+    iputils-tracepath
